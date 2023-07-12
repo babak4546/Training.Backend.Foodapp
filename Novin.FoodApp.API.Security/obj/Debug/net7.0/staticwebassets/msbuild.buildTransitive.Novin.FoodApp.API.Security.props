@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Novin.FoodApp.API.Security.props" />
+</Project>

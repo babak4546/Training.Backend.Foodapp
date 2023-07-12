@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using Novin.FoodApp.API.Security.DTOs;
+using Novin.FoodApp.Core.Entities;
 using Novin.FoodApp.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,8 +13,10 @@ builder.Services.AddDbContext<NovinFoodAppDB>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MainDB"));
 });
-
+builder.Services.AddCors(options
+    => options.AddDefaultPolicy(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 var app = builder.Build();
+app.UseCors();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -23,29 +27,29 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
+app.MapPost("/signup",(NovinFoodAppDB db,ApplicationUser user)=>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
+    db.ApplicationUsers.Add(user);
+    db.SaveChanges();
+    return  Results.Ok();
+     
+});
+app.MapPost("/signin",(NovinFoodAppDB db,LoginDto login)=>
 {
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
+    var result=db.ApplicationUsers.FirstOrDefault(a=>a.Username==login.Username && a.Password==login.Password);
+   if (result == null)
+    {
+        return Results.Ok(new
+        { 
+          Message="username or password is incorrect",
+          Success=false
+        });
+    }
+    return Results.Ok(new
+    {
+        Message = "welcome",
+          Success = true
+    });
+});
 
 app.Run();
-
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

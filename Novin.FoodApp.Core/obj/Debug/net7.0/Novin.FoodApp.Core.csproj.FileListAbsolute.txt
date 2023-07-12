@@ -1,0 +1,12 @@
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\bin\Debug\net7.0\Novin.FoodApp.Core.deps.json
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\bin\Debug\net7.0\Novin.FoodApp.Core.dll
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\bin\Debug\net7.0\Novin.FoodApp.Core.pdb
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\obj\Debug\net7.0\Novin.FoodApp.Core.csproj.AssemblyReference.cache
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\obj\Debug\net7.0\Novin.FoodApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\obj\Debug\net7.0\Novin.FoodApp.Core.AssemblyInfoInputs.cache
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\obj\Debug\net7.0\Novin.FoodApp.Core.AssemblyInfo.cs
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\obj\Debug\net7.0\Novin.FoodApp.Core.csproj.CoreCompileInputs.cache
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\obj\Debug\net7.0\Novin.FoodApp.Core.dll
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\obj\Debug\net7.0\refint\Novin.FoodApp.Core.dll
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\obj\Debug\net7.0\Novin.FoodApp.Core.pdb
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Core\obj\Debug\net7.0\ref\Novin.FoodApp.Core.dll

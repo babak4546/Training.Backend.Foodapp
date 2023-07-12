@@ -16,5 +16,12 @@ namespace Novin.FoodApp.Infrastructure.Data
         {
              
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder
+                .Entity<ApplicationUser>()
+                .HasKey(p => p.Username);
+        }
     }
 }

@@ -1,0 +1,15 @@
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\bin\Debug\net7.0\Novin.FoodApp.Infrastructure.deps.json
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\bin\Debug\net7.0\Novin.FoodApp.Infrastructure.dll
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\bin\Debug\net7.0\Novin.FoodApp.Infrastructure.pdb
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\bin\Debug\net7.0\Novin.FoodApp.Core.dll
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\bin\Debug\net7.0\Novin.FoodApp.Core.pdb
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\obj\Debug\net7.0\Novin.FoodApp.Infrastructure.csproj.AssemblyReference.cache
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\obj\Debug\net7.0\Novin.FoodApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\obj\Debug\net7.0\Novin.FoodApp.Infrastructure.AssemblyInfoInputs.cache
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\obj\Debug\net7.0\Novin.FoodApp.Infrastructure.AssemblyInfo.cs
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\obj\Debug\net7.0\Novin.FoodApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\obj\Debug\net7.0\Novin.FoodApp.Infrastructure.csproj.CopyComplete
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\obj\Debug\net7.0\Novin.FoodApp.Infrastructure.dll
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\obj\Debug\net7.0\refint\Novin.FoodApp.Infrastructure.dll
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\obj\Debug\net7.0\Novin.FoodApp.Infrastructure.pdb
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.Infrastructure\obj\Debug\net7.0\ref\Novin.FoodApp.Infrastructure.dll
