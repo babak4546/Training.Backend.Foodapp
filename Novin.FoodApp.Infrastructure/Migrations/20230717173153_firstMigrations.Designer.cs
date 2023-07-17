@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Novin.FoodApp.Infrastructure.Data;
 
@@ -11,9 +12,11 @@ using Novin.FoodApp.Infrastructure.Data;
 namespace Novin.FoodApp.Infrastructure.Migrations
 {
     [DbContext(typeof(NovinFoodAppDB))]
-    partial class NovinFoodAppDBModelSnapshot : ModelSnapshot
+    [Migration("20230717173153_firstMigrations")]
+    partial class firstMigrations
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -47,42 +50,6 @@ namespace Novin.FoodApp.Infrastructure.Migrations
                     b.ToTable("ApplicationUsers");
                 });
 
-            modelBuilder.Entity("Novin.FoodApp.Core.Entities.FoodName", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreationTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Price")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("RestaurantId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("RestaurantType")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("RestaurantId");
-
-                    b.ToTable("FoodNames");
-                });
-
             modelBuilder.Entity("Novin.FoodApp.Core.Entities.Restaurant", b =>
                 {
                     b.Property<int>("Id")
@@ -114,10 +81,6 @@ namespace Novin.FoodApp.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("ApproverUsername");
@@ -125,15 +88,6 @@ namespace Novin.FoodApp.Infrastructure.Migrations
                     b.HasIndex("OwnerUsername");
 
                     b.ToTable("Restaurants");
-                });
-
-            modelBuilder.Entity("Novin.FoodApp.Core.Entities.FoodName", b =>
-                {
-                    b.HasOne("Novin.FoodApp.Core.Entities.Restaurant", "Restaurant")
-                        .WithMany()
-                        .HasForeignKey("RestaurantId");
-
-                    b.Navigation("Restaurant");
                 });
 
             modelBuilder.Entity("Novin.FoodApp.Core.Entities.Restaurant", b =>

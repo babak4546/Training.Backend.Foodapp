@@ -27,28 +27,28 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapPost("/signup",(NovinFoodAppDB db,ApplicationUser user)=>
+app.MapPost("/signup",async (NovinFoodAppDB db,ApplicationUser user)=>
 {
-    db.ApplicationUsers.Add(user);
-    db.SaveChanges();
+   await db.ApplicationUsers.AddAsync(user);
+   await db.SaveChangesAsync();
     return  Results.Ok();
-     
+ 
 });
-app.MapPost("/signin",(NovinFoodAppDB db,LoginDto login)=>
+app.MapPost("/signin",async(NovinFoodAppDB db,LoginDto login)=>
 {
-    var result=db.ApplicationUsers.FirstOrDefault(a=>a.Username==login.Username && a.Password==login.Password);
+    var result=await db.ApplicationUsers.FirstOrDefaultAsync(a=>a.Username==login.Username && a.Password==login.Password);
    if (result == null)
     {
-        return Results.Ok(new
+        return Results.Ok(new LoginResultDto
         { 
           Message="username or password is incorrect",
-          Success=false
+          IsOk=false
         });
     }
     return Results.Ok(new
     {
         Message = "welcome",
-          Success = true
+        IsOk = true
     });
 });
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Novin.FoodApp.Core.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace Novin.FoodApp.Core.Entities
         public string Username { get; set; }
         public string Password { get; set; }
         public string Fullname { get; set; }
-        public string Type { get; set; }
+        public ApplicationUserType Type { get; set; }
         public string Email { get; set; }
         
         

@@ -9,6 +9,11 @@ namespace Novin.FoodApp.Core.Entities
     public class BaseEntity
     {
         public virtual int Id { get; set; }
+        public DateTime CreationTime { get; set; }
+        public BaseEntity()
+        {
+            CreationTime = DateTime.Now;
+        }
     }
 }
  

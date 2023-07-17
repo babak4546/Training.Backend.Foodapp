@@ -11,6 +11,8 @@ namespace Novin.FoodApp.Infrastructure.Data
     public class NovinFoodAppDB:DbContext
     {
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Restaurant> Restaurants { get; set; }
+        public DbSet<FoodName>FoodNames { get; set; }
         public NovinFoodAppDB(DbContextOptions<NovinFoodAppDB>options)
             :base(options) 
         {
