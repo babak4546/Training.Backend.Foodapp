@@ -1,0 +1,12 @@
+D:\Food\Novin.Food.Data\bin\Debug\net7.0\Novin.Food.Data.deps.json
+D:\Food\Novin.Food.Data\bin\Debug\net7.0\Novin.Food.Data.dll
+D:\Food\Novin.Food.Data\bin\Debug\net7.0\Novin.Food.Data.pdb
+D:\Food\Novin.Food.Data\obj\Debug\net7.0\Novin.Food.Data.csproj.AssemblyReference.cache
+D:\Food\Novin.Food.Data\obj\Debug\net7.0\Novin.Food.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Food\Novin.Food.Data\obj\Debug\net7.0\Novin.Food.Data.AssemblyInfoInputs.cache
+D:\Food\Novin.Food.Data\obj\Debug\net7.0\Novin.Food.Data.AssemblyInfo.cs
+D:\Food\Novin.Food.Data\obj\Debug\net7.0\Novin.Food.Data.csproj.CoreCompileInputs.cache
+D:\Food\Novin.Food.Data\obj\Debug\net7.0\Novin.Food.Data.dll
+D:\Food\Novin.Food.Data\obj\Debug\net7.0\refint\Novin.Food.Data.dll
+D:\Food\Novin.Food.Data\obj\Debug\net7.0\Novin.Food.Data.pdb
+D:\Food\Novin.Food.Data\obj\Debug\net7.0\ref\Novin.Food.Data.dll

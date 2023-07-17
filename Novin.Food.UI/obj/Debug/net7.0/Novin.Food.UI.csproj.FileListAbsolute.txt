@@ -1,0 +1,12 @@
+D:\Food\Novin.Food.UI\bin\Debug\net7.0\Novin.Food.UI.deps.json
+D:\Food\Novin.Food.UI\bin\Debug\net7.0\Novin.Food.UI.dll
+D:\Food\Novin.Food.UI\bin\Debug\net7.0\Novin.Food.UI.pdb
+D:\Food\Novin.Food.UI\obj\Debug\net7.0\Novin.Food.UI.csproj.AssemblyReference.cache
+D:\Food\Novin.Food.UI\obj\Debug\net7.0\Novin.Food.UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Food\Novin.Food.UI\obj\Debug\net7.0\Novin.Food.UI.AssemblyInfoInputs.cache
+D:\Food\Novin.Food.UI\obj\Debug\net7.0\Novin.Food.UI.AssemblyInfo.cs
+D:\Food\Novin.Food.UI\obj\Debug\net7.0\Novin.Food.UI.csproj.CoreCompileInputs.cache
+D:\Food\Novin.Food.UI\obj\Debug\net7.0\Novin.Food.UI.dll
+D:\Food\Novin.Food.UI\obj\Debug\net7.0\refint\Novin.Food.UI.dll
+D:\Food\Novin.Food.UI\obj\Debug\net7.0\Novin.Food.UI.pdb
+D:\Food\Novin.Food.UI\obj\Debug\net7.0\ref\Novin.Food.UI.dll

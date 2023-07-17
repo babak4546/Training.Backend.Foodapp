@@ -1,0 +1,15 @@
+D:\Food\Novin.Food.Infrastructure\bin\Debug\net7.0\Novin.Food.Infrastructure.deps.json
+D:\Food\Novin.Food.Infrastructure\bin\Debug\net7.0\Novin.Food.Infrastructure.dll
+D:\Food\Novin.Food.Infrastructure\bin\Debug\net7.0\Novin.Food.Infrastructure.pdb
+D:\Food\Novin.Food.Infrastructure\bin\Debug\net7.0\Novin.Food.Data.dll
+D:\Food\Novin.Food.Infrastructure\bin\Debug\net7.0\Novin.Food.Data.pdb
+D:\Food\Novin.Food.Infrastructure\obj\Debug\net7.0\Novin.Food.Infrastructure.csproj.AssemblyReference.cache
+D:\Food\Novin.Food.Infrastructure\obj\Debug\net7.0\Novin.Food.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Food\Novin.Food.Infrastructure\obj\Debug\net7.0\Novin.Food.Infrastructure.AssemblyInfoInputs.cache
+D:\Food\Novin.Food.Infrastructure\obj\Debug\net7.0\Novin.Food.Infrastructure.AssemblyInfo.cs
+D:\Food\Novin.Food.Infrastructure\obj\Debug\net7.0\Novin.Food.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Food\Novin.Food.Infrastructure\obj\Debug\net7.0\Novin.Food.Infrastructure.csproj.CopyComplete
+D:\Food\Novin.Food.Infrastructure\obj\Debug\net7.0\Novin.Food.Infrastructure.dll
+D:\Food\Novin.Food.Infrastructure\obj\Debug\net7.0\refint\Novin.Food.Infrastructure.dll
+D:\Food\Novin.Food.Infrastructure\obj\Debug\net7.0\Novin.Food.Infrastructure.pdb
+D:\Food\Novin.Food.Infrastructure\obj\Debug\net7.0\ref\Novin.Food.Infrastructure.dll
