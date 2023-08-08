@@ -78,3 +78,7 @@ D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.API.Security\bin\D
 D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.API.Security\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.API.Security\bin\Debug\net7.0\System.CodeDom.dll
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.API.Security\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+D:\My.FoodApp\Backend\Novin.FoodApp.API.Backend\Novin.FoodApp.API.Security\bin\Debug\net7.0\Newtonsoft.Json.dll

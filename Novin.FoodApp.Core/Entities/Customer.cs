@@ -8,8 +8,14 @@ namespace Novin.FoodApp.Core.Entities
 {
     public  class Customer : BaseEntity
     {
-        public ApplicationUser Fullname { get; set; }
-        public ApplicationUser Username { get; set;}
+        public ApplicationUser? Client { get; set; }
+        public string? ClientUsername { get; set; }
+        public string? ClientPassword { get; set; }
+        public string? ClientFullname { get; set; }
+        public string? ClientEmail { get; set; }
+        public string? ClientPhoneNumber { get; set; }
+        public string? Address { get; set;}
+
 
 
 

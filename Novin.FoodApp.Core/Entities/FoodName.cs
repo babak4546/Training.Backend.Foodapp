@@ -13,8 +13,6 @@ namespace Novin.FoodApp.Core.Entities
         public string Price { get; set; }
         public Restaurant? Restaurant { get; set; }
         public string? RestaurantType { get; set; }
-
-
-
+        
     }
 }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Novin.FoodApp.Infrastructure.Data;
 
@@ -11,9 +12,11 @@ using Novin.FoodApp.Infrastructure.Data;
 namespace Novin.FoodApp.Infrastructure.Migrations
 {
     [DbContext(typeof(NovinFoodAppDB))]
-    partial class NovinFoodAppDBModelSnapshot : ModelSnapshot
+    [Migration("20230717190727_AddCustomer2")]
+    partial class AddCustomer2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

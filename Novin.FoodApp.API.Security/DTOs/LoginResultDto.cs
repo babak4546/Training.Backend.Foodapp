@@ -4,5 +4,6 @@
     {
         public string Message { get; set; }
         public bool IsOk { get; set; }
+        public string Token { get; set; }
     }
 }
