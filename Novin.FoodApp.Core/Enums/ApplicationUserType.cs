@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace Novin.FoodApp.Core.Enums
+
 {
     public enum ApplicationUserType
     {
-        SystemAdmin,
-        RestaurantOwner,
-        Customer,
-
+        SystemAdmin=1,
+        RestaurantOwner=2,
+        Customer=3
     }
 }

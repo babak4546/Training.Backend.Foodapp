@@ -19,5 +19,6 @@ namespace Novin.FoodApp.Core.Entities
         public DateTime? ApprovedTime { get; set; }
         public string? RestaurantAddress { get; set; }
         public bool IsActive { get; set; }
+
     }   
 }

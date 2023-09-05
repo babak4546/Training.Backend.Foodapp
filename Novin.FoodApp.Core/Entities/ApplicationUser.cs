@@ -18,6 +18,8 @@ namespace Novin.FoodApp.Core.Entities
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
 
+        public bool Verifide { get; set; } = false;
+        public string VerificationCode { get; set; }
 
     }
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novin.FoodApp.API.Security", "Novin.FoodApp.API.Security\Novin.FoodApp.API.Security.csproj", "{D269A4E5-81C9-477B-BF57-5998DD248811}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novin.FoodApp.API.Security", "Novin.FoodApp.API.Security\Novin.FoodApp.API.Security.csproj", "{D269A4E5-81C9-477B-BF57-5998DD248811}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{278FC01D-FE53-4D9A-BA06-173097FFDE3B}"
 EndProject
@@ -11,9 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infrastructure", "2-Infra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-API", "3-API", "{772CA621-CCC7-43D6-B86C-A8163C0824AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novin.FoodApp.Core", "Novin.FoodApp.Core\Novin.FoodApp.Core.csproj", "{6FC92FAA-7E33-45E5-9D6F-82877C684ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novin.FoodApp.Core", "Novin.FoodApp.Core\Novin.FoodApp.Core.csproj", "{6FC92FAA-7E33-45E5-9D6F-82877C684ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novin.FoodApp.Infrastructure", "Novin.FoodApp.Infrastructure\Novin.FoodApp.Infrastructure.csproj", "{B5539CAF-BA25-4C8C-ACF2-1139F5E40319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novin.FoodApp.Infrastructure", "Novin.FoodApp.Infrastructure\Novin.FoodApp.Infrastructure.csproj", "{B5539CAF-BA25-4C8C-ACF2-1139F5E40319}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novin.FoodApp.API.Restaurants", "Novin.FoodApp.API.Restaurants\Novin.FoodApp.API.Restaurants.csproj", "{DF72395F-894A-4DF4-ADB3-B69F96F11953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novin.FoodApp.API.Users", "Novin.FoodApp.API.Users\Novin.FoodApp.API.Users.csproj", "{F50CC2EB-AC5A-4B93-8193-1EC12B7A63B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{B5539CAF-BA25-4C8C-ACF2-1139F5E40319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5539CAF-BA25-4C8C-ACF2-1139F5E40319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5539CAF-BA25-4C8C-ACF2-1139F5E40319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF72395F-894A-4DF4-ADB3-B69F96F11953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF72395F-894A-4DF4-ADB3-B69F96F11953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF72395F-894A-4DF4-ADB3-B69F96F11953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF72395F-894A-4DF4-ADB3-B69F96F11953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50CC2EB-AC5A-4B93-8193-1EC12B7A63B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50CC2EB-AC5A-4B93-8193-1EC12B7A63B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50CC2EB-AC5A-4B93-8193-1EC12B7A63B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50CC2EB-AC5A-4B93-8193-1EC12B7A63B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +53,8 @@ Global
 		{D269A4E5-81C9-477B-BF57-5998DD248811} = {772CA621-CCC7-43D6-B86C-A8163C0824AD}
 		{6FC92FAA-7E33-45E5-9D6F-82877C684ED3} = {278FC01D-FE53-4D9A-BA06-173097FFDE3B}
 		{B5539CAF-BA25-4C8C-ACF2-1139F5E40319} = {213CA1B2-820C-4654-A6DB-FD42AA784F5D}
+		{DF72395F-894A-4DF4-ADB3-B69F96F11953} = {772CA621-CCC7-43D6-B86C-A8163C0824AD}
+		{F50CC2EB-AC5A-4B93-8193-1EC12B7A63B4} = {772CA621-CCC7-43D6-B86C-A8163C0824AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E210BD06-23CB-4CC5-BEDC-F9C7800C2595}
