@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Novin.FoodApp.Infrastructure.Data;
 using Novin.FoodApp.Infrastructure.Security;
+using Novin.FoodApp.Infrastructure.UI;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,4 +14,9 @@ app.MapPost("/list", async (NovinFoodAppDB db) =>
         .ToList());
 });
 
+app.MapPost("/alist", async (NovinFoodAppDB db,ListRequestDTO listRequest) =>
+{
+    return Results.Ok(db.ApplicationUsers
+        .ToList());
+});
 app.Run();
